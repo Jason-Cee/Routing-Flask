@@ -37,6 +37,7 @@ def guest(name):
     return "I am a guest at Lifechoices Academy, my name is : %s" % name
 
 
+# CREATING SALARY INFORMATION PAGE
 @app.route("/payment/<int:sal>")
 def payment(sal):
     if sal <= 5000:
